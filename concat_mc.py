@@ -1,6 +1,7 @@
 # Elliot C
 # 9/20/24
 
+import random
 from time import sleep
 
 print()
@@ -16,13 +17,14 @@ print()
 sleep(1)
 print()
 print("I used concatenation for this.")
+sleep(3)
 print("Concatenation sucks.")
 sleep(2)
 print("It's anoying, f strings are better.")
 sleep(3)
 print("It's slow, because it takes up to much memory.")
 sleep(3)
-print("It's anoying to code it this way.")
+print("It's anoying to code this way.")
 sleep(3)
 print("It all around is a bad option.")
 print()
@@ -31,6 +33,7 @@ print()
 sleep(1)
 print()
 sleep(5)
-bkb = float(75946.32)
+ran = random.randint(7, 783457)
+bkb = float(0.34 * ran)
 print("Anyways, that will be $" + str(bkb) + " at the first window.")
 print("Thank you for comming to Burger King today.")
